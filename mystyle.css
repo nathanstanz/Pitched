@@ -1,0 +1,141 @@
+/* navbar */
+.navbar {
+    background-color: #4F94A8;
+}
+
+
+a {
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.headerLink {
+    float: right;
+}
+
+
+
+
+
+
+
+/* Jumbotron */
+.jumbotron {
+    font-family: 'Lato', sans-serif;
+    height: 425px;
+    background: url(img/nick1.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-size: 5em;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 1.5em;
+}
+
+.btn-primary {
+    background-color: #4F94A8;
+    border-color: #4F94A8;
+}
+
+.btn-primary:hover {
+    background-color: #4F94A8;
+    border-color: #4F94A8;
+}
+
+/* Content */ 
+.content {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+.episodeBlock {
+    margin: 0 auto;
+    padding-left: 10%;
+}
+
+.episodeImage {
+    padding-bottom: 65px;
+}
+
+.episodeImage img {
+    width: 200px;
+    height: 200px;
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+}
+
+.episodeImage img:hover {
+    width: 230px;
+    height: 230px;
+}
+
+.meta {
+    width: 500px;
+    padding-left: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.meta h4 {
+    color: #4F94A8;
+}
+
+
+
+.centerText {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+
+/* Footer */
+.navbar-fixed-bottom {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.navbar-fixed-bottom a {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar-fixed-bottom img {
+    height: 40px;
+    width: 40px;
+}   
